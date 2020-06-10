@@ -22,8 +22,9 @@
         "url": "https://github.com/salespaulo/fvi-camunda-client.git"
     },
     "keywords": [
-        "robot",
-        "management"
+        "camunda",
+        "client",
+        "externaltask"
     ],
     "author": "FVI",
     "license": "MIT",
