@@ -1,0 +1,5 @@
+{
+    "camunda": {
+        "url": "http://localhost:9991"
+    }
+}
