@@ -4,9 +4,9 @@ const chai = require('chai')
 
 const koa = require('fvi-koa-server')
 const Router = require('koa-router')
-const { toConfig, inspect } = require('fvi-node-utils/app/objects')
+const { toConfig, inspect } = require('fvi-node-utils/src/objects')
 
-const app = require('../app')
+const app = require('../src')
 
 const router = new Router()
 

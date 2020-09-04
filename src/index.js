@@ -5,11 +5,15 @@ const axios = require('fvi-axios-client')
 const camunda = require('./camunda')
 const externalTask = require('./external-task')
 
+const config = require('./config')
+
 const getConfig = (cfg = null) => {
     if (cfg == null) {
-        const config = require('./config')
+        console.log('........')
+        console.log('........ >>1 config', config)
         const camundaCfg = config.get('camunda')
 
+        console.log('........ >> config', camundaCfg)
         return camundaCfg
     }
 

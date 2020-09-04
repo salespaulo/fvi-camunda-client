@@ -6,7 +6,7 @@ module.exports = config({
     camunda: {
         url: {
             doc: 'Camunda Server URL',
-            format: 'url',
+            format: String,
             default: 'http://localhost:8080',
             env: 'CAMUNDA_URL',
             arg: 'camunda-url',
