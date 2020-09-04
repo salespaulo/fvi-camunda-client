@@ -9,11 +9,7 @@ const config = require('./config')
 
 const getConfig = (cfg = null) => {
     if (cfg == null) {
-        console.log('........')
-        console.log('........ >>1 config', config)
         const camundaCfg = config.get('camunda')
-
-        console.log('........ >> config', camundaCfg)
         return camundaCfg
     }
 
