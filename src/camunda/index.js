@@ -1,6 +1,6 @@
 'use strict'
 
-const { inspect } = require('fvi-node-utils/app/objects')
+const { inspect } = require('fvi-node-utils/src/objects')
 
 const { toCamundaVars } = require('../utils')
 const { schemaStartByProcessDefKey, schemaStartWithTenantIdByProcessDefKey } = require('../schema')
