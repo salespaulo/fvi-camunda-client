@@ -1,3 +1,4 @@
+dist/
 *.xls
 *.xlsx
 !mock-msg-pagto.xlsx
